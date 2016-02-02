@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="video_store.xsl"?>
+
+<!--Alan Sullivan done this file-->
+<store>
+	<details>
+		<detail>
+			<firstname>Joe</firstname>
+			<lastname>Soap</lastname>
+			<dob>20/9/1980</dob>
+			<address>111 Mayor Street</address>
+			<customer_status>Overdue</customer_status>
+		</detail>
+	</details>
+	<details>
+		<detail>
+			<firstname>John</firstname>
+			<lastname>Doe</lastname>
+			<dob>20/11/1975</dob>
+			<address>116 Mayor Street</address>
+			<customer_status>Movie out</customer_status>
+		</detail>
+	</details>
+	<details>
+		<detail>
+			<firstname>Alan</firstname>
+			<lastname>Sullivan</lastname>
+			<dob>20/7/1988</dob>
+			<address>118 Mayor Street</address>
+			<customer_status>Balanced</customer_status>
+		</detail>
+	</details>
+	<details>
+		<detail>
+			<firstname>Declan</firstname>
+			<lastname>Barnes</lastname>
+			<dob>23/8/1987</dob>
+			<address>120 Mayor Street</address>
+			<customer_status>Movie out</customer_status>
+		</detail>
+	</details>
+	<details>
+		<detail>
+			<firstname>Brian</firstname>
+			<lastname>Walsh</lastname>
+			<dob>6/2/1990</dob>
+			<address>121 Mayor Street</address>
+			<customer_status>Balanced</customer_status>
+		</detail>
+	</details>
+	<details>
+		<detail>
+			<firstname>Karl</firstname>
+			<lastname>Diver</lastname>
+			<dob>5/4/1986</dob>
+			<address>129 Mayor Street</address>
+			<customer_status>Overdue</customer_status>
+		</detail>
+	</details>
+	<details>
+		<detail>
+			<firstname>Rachael</firstname>
+			<lastname>Green</lastname>
+			<dob>9/7/1985</dob>
+			<address>127 Mayor Street</address>
+			<customer_status>Overdue</customer_status>
+		</detail>
+	</details>
+	<details>
+		<detail>
+			<firstname>Adam</firstname>
+			<lastname>Johnson</lastname>
+			<dob>7/8/1970</dob>
+			<address>125 Mayor Street</address>
+			<customer_status>Overdue</customer_status>
+		</detail>
+	</details>
+	<details>
+		<detail>
+			<firstname>Kate</firstname>
+			<lastname>Moore</lastname>
+			<dob>4/3/1993</dob>
+			<address>124 Mayor Street</address>
+			<customer_status>Movie out</customer_status>
+			</detail>
+	</details>
+	<details>
+		<detail>
+			<firstname>Kim</firstname>
+			<lastname>Adams</lastname>
+			<dob>1/4/1984</dob>
+			<address>121 Mayor Street</address>
+			<customer_status>Movie out</customer_status>
+		</detail>
+	</details>
+
+</store>

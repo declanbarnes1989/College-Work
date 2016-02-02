@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="video_store.xsl"?>
+
+<!--Declan Barnes done this file-->
+
+
+<store xmlns:spec="http://www.w3schools.com/furniture">
+    
+	<dvd>
+		<name>The Lord Of The Rings</name>
+		<image>images/lotr.png</image>
+		<genre>Fantasy</genre>
+		<age>PG-13</age>
+		<type>Dvd/Blu-Ray</type>
+		<spec:special_offer>
+					<spec:promotion>
+							<spec:info>The Lord Of The Rings Boxset 1-4</spec:info>
+					</spec:promotion>
+		</spec:special_offer>
+	</dvd>
+	
+	
+	<dvd>
+		<name>The Hangover</name>
+		<image>images/hangover.png</image>
+		<genre>Comedy</genre>
+		<age>Over 18s</age>
+		<type>Dvd/Blu-Ray</type>
+		<spec:special_offer>
+					<spec:promotion>
+							<spec:info>The Hangover Boxset 1-3</spec:info>
+					</spec:promotion>
+		</spec:special_offer>
+	</dvd>
+	
+	
+	<dvd>
+		<name>After Earth</name>
+		<image>images/afterEarth.png</image>
+		<genre>Sci-Fi</genre>
+		<age>PG-16</age>
+		<type>Dvd/Blu-Ray</type>
+		<spec:special_offer>
+					<spec:promotion>
+							<spec:info>€5:00 off!</spec:info>
+					</spec:promotion>
+		</spec:special_offer>
+	</dvd>
+	
+	
+	<dvd>
+		<name>Inception</name>
+		<image>images/inception.png</image>
+		<genre>Action/Sci-Fi</genre>
+		<age>Over 18s</age>
+		<type>Dvd/Blu-Ray</type>
+		<spec:special_offer>
+					<spec:promotion>
+							<spec:info>Buy one get one half-price!</spec:info>
+					</spec:promotion>
+		</spec:special_offer>
+	</dvd>
+	
+	
+	<dvd>
+		<name>Mission Impossible:Ghost Protocol</name>
+		<image>images/ghost-protocol.png</image>
+		<genre>Action</genre>
+		<age>PG-16</age>
+		<type>Dvd/Blue-Ray</type>
+		<spec:special_offer>
+					<spec:promotion>
+							<spec:info>Mission Impossible-Boxset</spec:info>
+					</spec:promotion>
+		</spec:special_offer>
+	</dvd>
+	
+	
+	<dvd>
+		<name>Mrs Brown's Boy's</name>
+		<image>images/mrsBrownsBoys.png</image>
+		<genre>Comedy</genre>
+		<age>Over 18s</age>
+		<type>Dvd/Blue-Ray</type>
+		<spec:special_offer>
+					<spec:promotion>
+							<spec:info>Mr Brown's Boy's Season 1-Boxset</spec:info>
+					</spec:promotion>
+		</spec:special_offer>
+	</dvd>
+	
+	
+	<dvd>
+		<name>X-Men: Days Of Future Past</name>
+		<image>images/X-Men.png</image>
+		<genre>Fantasy</genre>
+		<age>PG-13</age>
+		<type>Dvd/Blu-Ray</type>
+		<spec:special_offer>
+					<spec:promotion>
+							<spec:info>X-Men films-Boxset</spec:info>
+					</spec:promotion>
+		</spec:special_offer>
+	</dvd>
+	
+	
+	<dvd>
+		<name>Transformers:Age of Extinction</name>
+		<image>images/transformers.png</image>
+		<genre>Sci-Fi</genre>
+		<age>PG-13</age>
+		<type>Dvd/Blu-Ray</type>
+		<spec:special_offer>
+					<spec:promotion>
+							<spec:info>Transformer films-Boxset</spec:info>
+					</spec:promotion>
+		</spec:special_offer>
+	</dvd>
+	
+	
+	<dvd>
+		<name>Dawn Of The Planet Of The Apes</name>
+		<image>images/pota.png</image>
+		<genre>Sci-Fi</genre>
+		<age>PG-16</age>
+		<type>Dvd/Blu-Ray</type>
+		<spec:special_offer>
+					<spec:promotion>
+							<spec:info>€5:00 off!</spec:info>
+					</spec:promotion>
+		</spec:special_offer>
+	</dvd>
+	
+	
+	<dvd>
+		<name>Guardians of the Galaxy</name>
+		<image>images/galaxy.png</image>
+		<genre>Sci-Fi/Fantasy</genre>
+		<age>PG-16</age>
+		<type>Dvd/Blu-Ray</type>
+		<spec:special_offer>
+					<spec:promotion>
+							<spec:info>€5:00 off!</spec:info>
+					</spec:promotion>
+		</spec:special_offer>
+	</dvd>
+
+</store>

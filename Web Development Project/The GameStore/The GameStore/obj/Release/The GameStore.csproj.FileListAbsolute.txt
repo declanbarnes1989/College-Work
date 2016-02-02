@@ -1,0 +1,72 @@
+D:\Year3\Advanced Internet Technologies\Project\The GameStore\The GameStore\bin\roslyn\csc.exe
+D:\Year3\Advanced Internet Technologies\Project\The GameStore\The GameStore\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Year3\Advanced Internet Technologies\Project\The GameStore\The GameStore\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Year3\Advanced Internet Technologies\Project\The GameStore\The GameStore\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Year3\Advanced Internet Technologies\Project\The GameStore\The GameStore\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Year3\Advanced Internet Technologies\Project\The GameStore\The GameStore\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Year3\Advanced Internet Technologies\Project\The GameStore\The GameStore\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Year3\Advanced Internet Technologies\Project\The GameStore\The GameStore\bin\roslyn\System.Collections.Immutable.dll
+D:\Year3\Advanced Internet Technologies\Project\The GameStore\The GameStore\bin\roslyn\System.Reflection.Metadata.dll
+D:\Year3\Advanced Internet Technologies\Project\The GameStore\The GameStore\bin\roslyn\vbc.exe
+D:\Year3\Advanced Internet Technologies\Project\The GameStore\The GameStore\bin\roslyn\VBCSCompiler.exe
+D:\Year3\Advanced Internet Technologies\Project\The GameStore\The GameStore\bin\roslyn\VBCSCompiler.exe.config
+D:\Year3\Advanced Internet Technologies\Project\The GameStore\The GameStore\bin\The GameStore.dll.config
+D:\Year3\Advanced Internet Technologies\Project\The GameStore\The GameStore\bin\The GameStore.dll
+D:\Year3\Advanced Internet Technologies\Project\The GameStore\The GameStore\bin\The GameStore.pdb
+D:\Year3\Advanced Internet Technologies\Project\The GameStore\The GameStore\bin\Antlr3.Runtime.dll
+D:\Year3\Advanced Internet Technologies\Project\The GameStore\The GameStore\bin\EntityFramework.dll
+D:\Year3\Advanced Internet Technologies\Project\The GameStore\The GameStore\bin\EntityFramework.SqlServer.dll
+D:\Year3\Advanced Internet Technologies\Project\The GameStore\The GameStore\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Year3\Advanced Internet Technologies\Project\The GameStore\The GameStore\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Year3\Advanced Internet Technologies\Project\The GameStore\The GameStore\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Year3\Advanced Internet Technologies\Project\The GameStore\The GameStore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Year3\Advanced Internet Technologies\Project\The GameStore\The GameStore\bin\Microsoft.Owin.dll
+D:\Year3\Advanced Internet Technologies\Project\The GameStore\The GameStore\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Year3\Advanced Internet Technologies\Project\The GameStore\The GameStore\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Year3\Advanced Internet Technologies\Project\The GameStore\The GameStore\bin\Microsoft.Owin.Security.dll
+D:\Year3\Advanced Internet Technologies\Project\The GameStore\The GameStore\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Year3\Advanced Internet Technologies\Project\The GameStore\The GameStore\bin\Microsoft.Owin.Security.Google.dll
+D:\Year3\Advanced Internet Technologies\Project\The GameStore\The GameStore\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Year3\Advanced Internet Technologies\Project\The GameStore\The GameStore\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Year3\Advanced Internet Technologies\Project\The GameStore\The GameStore\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Year3\Advanced Internet Technologies\Project\The GameStore\The GameStore\bin\Microsoft.Web.Infrastructure.dll
+D:\Year3\Advanced Internet Technologies\Project\The GameStore\The GameStore\bin\Newtonsoft.Json.dll
+D:\Year3\Advanced Internet Technologies\Project\The GameStore\The GameStore\bin\Owin.dll
+D:\Year3\Advanced Internet Technologies\Project\The GameStore\The GameStore\bin\System.Web.Helpers.dll
+D:\Year3\Advanced Internet Technologies\Project\The GameStore\The GameStore\bin\System.Web.Mvc.dll
+D:\Year3\Advanced Internet Technologies\Project\The GameStore\The GameStore\bin\System.Web.Optimization.dll
+D:\Year3\Advanced Internet Technologies\Project\The GameStore\The GameStore\bin\System.Web.Razor.dll
+D:\Year3\Advanced Internet Technologies\Project\The GameStore\The GameStore\bin\System.Web.WebPages.Deployment.dll
+D:\Year3\Advanced Internet Technologies\Project\The GameStore\The GameStore\bin\System.Web.WebPages.dll
+D:\Year3\Advanced Internet Technologies\Project\The GameStore\The GameStore\bin\System.Web.WebPages.Razor.dll
+D:\Year3\Advanced Internet Technologies\Project\The GameStore\The GameStore\bin\WebGrease.dll
+D:\Year3\Advanced Internet Technologies\Project\The GameStore\The GameStore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Year3\Advanced Internet Technologies\Project\The GameStore\The GameStore\bin\System.Web.Helpers.xml
+D:\Year3\Advanced Internet Technologies\Project\The GameStore\The GameStore\bin\System.Web.Mvc.xml
+D:\Year3\Advanced Internet Technologies\Project\The GameStore\The GameStore\bin\System.Web.Optimization.xml
+D:\Year3\Advanced Internet Technologies\Project\The GameStore\The GameStore\bin\System.Web.Razor.xml
+D:\Year3\Advanced Internet Technologies\Project\The GameStore\The GameStore\bin\System.Web.WebPages.xml
+D:\Year3\Advanced Internet Technologies\Project\The GameStore\The GameStore\bin\System.Web.WebPages.Deployment.xml
+D:\Year3\Advanced Internet Technologies\Project\The GameStore\The GameStore\bin\System.Web.WebPages.Razor.xml
+D:\Year3\Advanced Internet Technologies\Project\The GameStore\The GameStore\bin\Antlr3.Runtime.pdb
+D:\Year3\Advanced Internet Technologies\Project\The GameStore\The GameStore\bin\Newtonsoft.Json.xml
+D:\Year3\Advanced Internet Technologies\Project\The GameStore\The GameStore\bin\EntityFramework.xml
+D:\Year3\Advanced Internet Technologies\Project\The GameStore\The GameStore\bin\EntityFramework.SqlServer.xml
+D:\Year3\Advanced Internet Technologies\Project\The GameStore\The GameStore\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Year3\Advanced Internet Technologies\Project\The GameStore\The GameStore\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Year3\Advanced Internet Technologies\Project\The GameStore\The GameStore\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Year3\Advanced Internet Technologies\Project\The GameStore\The GameStore\bin\Microsoft.Owin.xml
+D:\Year3\Advanced Internet Technologies\Project\The GameStore\The GameStore\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Year3\Advanced Internet Technologies\Project\The GameStore\The GameStore\bin\Microsoft.Owin.Security.xml
+D:\Year3\Advanced Internet Technologies\Project\The GameStore\The GameStore\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Year3\Advanced Internet Technologies\Project\The GameStore\The GameStore\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Year3\Advanced Internet Technologies\Project\The GameStore\The GameStore\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Year3\Advanced Internet Technologies\Project\The GameStore\The GameStore\bin\Microsoft.Owin.Security.Google.xml
+D:\Year3\Advanced Internet Technologies\Project\The GameStore\The GameStore\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Year3\Advanced Internet Technologies\Project\The GameStore\The GameStore\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Year3\Advanced Internet Technologies\Project\The GameStore\The GameStore\obj\Release\The GameStore.csprojResolveAssemblyReference.cache
+D:\Year3\Advanced Internet Technologies\Project\The GameStore\The GameStore\obj\Release\The_GameStore.Migrations.InitialCreate.resources
+D:\Year3\Advanced Internet Technologies\Project\The GameStore\The GameStore\obj\Release\The_GameStore.Migrations.AddAliasField.resources
+D:\Year3\Advanced Internet Technologies\Project\The GameStore\The GameStore\obj\Release\The GameStore.csproj.GenerateResource.Cache
+D:\Year3\Advanced Internet Technologies\Project\The GameStore\The GameStore\obj\Release\The GameStore.dll
+D:\Year3\Advanced Internet Technologies\Project\The GameStore\The GameStore\obj\Release\The GameStore.pdb

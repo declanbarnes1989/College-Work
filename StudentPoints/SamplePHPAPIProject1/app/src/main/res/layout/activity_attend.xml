@@ -1,0 +1,131 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradiantbg"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <TextView
+        android:id="@+id/TFRoom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Room"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:layout_below="@+id/TVScanned"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Attend"
+        android:id="@+id/Battend"
+        android:onClick="onAttendClick"
+        android:background="@drawable/buttonshapemain"
+        android:shadowColor="#91191D"
+        android:shadowDx="2"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:textStyle="bold"
+        android:layout_above="@+id/logout_btn"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="33dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Room Scanned:"
+        android:id="@+id/TVScanned"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:layout_below="@+id/emailWF"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="44dp" />
+
+    <Button
+        android:id="@+id/logout_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonshapemain"
+        android:shadowColor="#91191D"
+        android:shadowDx="2"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="@string/logout_btn"
+        android:onClick="logout_btn"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="78dp" />
+
+    <TextView
+        android:id="@+id/emailWF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:text="Student_ID"
+        android:layout_below="@+id/TVStudentNo"
+        android:layout_toEndOf="@+id/TVStudentNo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Student No:"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:id="@+id/TVStudentNo"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Day of Week:"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:id="@+id/TFDAY"
+        android:layout_marginTop="42dp"
+        android:layout_below="@+id/TFRoom"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Day"
+        android:id="@+id/TVDayIN"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/TFDAY"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="LeaderBoard"
+        android:background="@drawable/buttonshapemain"
+        android:shadowColor="#91191D"
+        android:shadowDx="2"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:textStyle="bold"
+        android:id="@+id/BtnLeader"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

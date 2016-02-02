@@ -1,0 +1,137 @@
+.body
+{
+	background-color:#74B7D8;
+}
+
+#main 
+{
+	color:#CC0000;
+	font-family:"Old English Text MT";
+	font-size:42px;
+	
+}
+
+#header
+{
+  background-image:url(icons/header.png);
+  background-repeat:no-repeat;
+  width:921px;
+  position:absolute;
+  right:182px;
+}
+
+#mainpic
+{
+	padding-top:100px;
+	height: 190px;
+	width: 569px;
+	position:absolute;
+	left:177.5px;
+	top:45px;
+
+}
+
+.column1
+{
+	position:absolute;
+	top:380px;
+	left:355px;
+	width: 44.3%;
+	border: 1px solid black;
+	
+	
+}
+.column2
+{
+	position: absolute;
+	top:432px;
+	left:355px;
+	width: 44.3%;
+	border: 1px solid black;
+}
+
+.column3
+{
+	position: absolute;
+	left:355px;
+	top:484px;
+	width: 44.3%;
+	border: 1px solid black;
+}
+
+.column4
+{
+	position: absolute;
+	left:355px;
+	top:536px;
+	width: 44.3%;
+	border: 1px solid black;
+}
+
+.column5
+{
+	position: absolute;
+	left:355px;
+	top:590px;
+	width: 44.3%;
+	border: 1px solid black;
+}
+
+#messageBox
+{
+	position: absolute;
+	left:348px;
+	top:640px;
+	width:44.3%
+	blackborder: 1px solid black;
+}
+.messageButton
+{
+	text-align: center;
+}
+.dotted_line
+{
+	
+	background-image:url(icons/dotted_line.png);
+	background-repeat:no-repeat;
+	clear:both;
+	position:absolute;
+	left:180px;
+	top:100px;
+	width:1500px;
+	height:5px;
+	
+}
+
+#footer 
+{
+	display:block;
+	width: 921px;
+	height:80px;
+	background: url(icons/footer.png) no-repeat;
+	position:absolute;
+	text-align: center;
+	left:175px;
+	top:750px;
+	color:#CC0000;
+}
+
+
+
+#homePage
+{
+	position:absolute;
+	left:180px;
+	top:20px;
+	background-color:#74B7D8;
+	color:white;
+	font-size:16px;
+	padding:10px;
+	border-style:solid;
+	border-width:5px;
+    border-color:#CC0000;
+	
+
+}
+
+

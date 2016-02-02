@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/declanbarnes/Applications/SamplePHPAPIProject1/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Users/declanbarnes/Applications/SamplePHPAPIProject1/app/build/intermediates/pre-dexed/debug/classes-837f0131d759cb0d8d44e81ab8f2a20eae4031ed.jar" />
+    </item>
+    <item
+        jar="/Users/declanbarnes/.gradle/caches/modules-2/files-2.1/com.google.zxing/android-integration/3.1.0/52707c1c0801b4e1c0ca9bdbabd2dae20d8564d7/android-integration-3.1.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="52707c1c0801b4e1c0ca9bdbabd2dae20d8564d7">
+        <dex dex="/Users/declanbarnes/Applications/SamplePHPAPIProject1/app/build/intermediates/pre-dexed/debug/android-integration-3.1.0-65a54afa2b49c29cd955bdd142dbc369cd38e7f4.jar" />
+    </item>
+    <item
+        jar="/Users/declanbarnes/Applications/SamplePHPAPIProject1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28">
+        <dex dex="/Users/declanbarnes/Applications/SamplePHPAPIProject1/app/build/intermediates/pre-dexed/debug/classes-832ce13b2bde76b1f787f99e2278632a9273d334.jar" />
+    </item>
+    <item
+        jar="/Users/declanbarnes/Applications/SamplePHPAPIProject1/app/build/intermediates/exploded-aar/me.dm7.barcodescanner/zbar/1.8.2/jars/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="15f1c7a4c01dd95b6da8c5acfaf42d2075d1ae2a">
+        <dex dex="/Users/declanbarnes/Applications/SamplePHPAPIProject1/app/build/intermediates/pre-dexed/debug/classes-03d230f1e190dcd2dce255c59c1ab9a5b4578e7d.jar" />
+    </item>
+    <item
+        jar="/Users/declanbarnes/Applications/SamplePHPAPIProject1/app/libs/volley.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="d4aaa36e04ee71a83444f8367c97a46fda662d2c">
+        <dex dex="/Users/declanbarnes/Applications/SamplePHPAPIProject1/app/build/intermediates/pre-dexed/debug/volley-78ecc8244656a8646b2cabb9aa83a80d2824dc75.jar" />
+    </item>
+    <item
+        jar="/Users/declanbarnes/Applications/SamplePHPAPIProject1/app/build/intermediates/exploded-aar/me.dm7.barcodescanner/core/1.8.2/jars/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="96c83d4de6289a3f674165f896ac992564a7138d">
+        <dex dex="/Users/declanbarnes/Applications/SamplePHPAPIProject1/app/build/intermediates/pre-dexed/debug/classes-d2477f4866e0b0536831d42bb172cb43ffb13604.jar" />
+    </item>
+    <item
+        jar="/Users/declanbarnes/Applications/SamplePHPAPIProject1/app/build/intermediates/exploded-aar/me.dm7.barcodescanner/zbar/1.8.2/jars/libs/zbar.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="7bbdf7ba57a8a157c0cad51e455609c70887812e">
+        <dex dex="/Users/declanbarnes/Applications/SamplePHPAPIProject1/app/build/intermediates/pre-dexed/debug/zbar-2b3cde448c50064760c368cf5f7d7ac7a797749f.jar" />
+    </item>
+    <item
+        jar="/Users/declanbarnes/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/Users/declanbarnes/Applications/SamplePHPAPIProject1/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-65bf25cbe279c7ee0923342bb9413cebab33252c.jar" />
+    </item>
+    <item
+        jar="/Users/declanbarnes/.gradle/caches/modules-2/files-2.1/com.google.zxing/core/3.1.0/908e18674f895e3e1fa8f4a954b8c637a23d2801/core-3.1.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="908e18674f895e3e1fa8f4a954b8c637a23d2801">
+        <dex dex="/Users/declanbarnes/Applications/SamplePHPAPIProject1/app/build/intermediates/pre-dexed/debug/core-3.1.0-56e61b19de20b6fa7298de574b726b09ec059e22.jar" />
+    </item>
+    <item
+        jar="/Users/declanbarnes/Applications/SamplePHPAPIProject1/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Users/declanbarnes/Applications/SamplePHPAPIProject1/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-84b012a74f8ab230a92565a2c0a71ce3499e2e53.jar" />
+    </item>
+
+</items>

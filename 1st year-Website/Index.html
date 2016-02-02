@@ -1,0 +1,231 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<link rel="stylesheet" type="text/css" href="mystyle.css" />
+<title>Beale's Shoe Store</title>
+</head>
+
+<body>
+    <div id="page">
+
+        <div id="header">
+            <ul>
+           	   	<li><a href="index.html">Home</a></li>
+               	<li><a href="About.html">About</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+           <a href="http://www.facebook.com"><img src="icons/Facebook.jpg" alt="face" style="float:right"/></a>&nbsp;<a href="http://www.twitter.com/LeonaBeale"><img src="icons/Twitter.png" alt="Twit" style="float:right"/></a>&nbsp; <a href="http://www.linkedin.com"><img src="icons/Linkedin.gif" alt="in" style="float:right"/></a>
+           <div id="Title">Beale's Shoes Store</div>
+        </div>
+  <div class="dotted_line"></div>
+        <div id="main">
+
+        	<div class="main_left">
+            	<img src="icons/shoecrazy.png" alt="shoe"/>
+                <h1>Beale's Shoe Store</h1>
+                <h3>"Providing the best shoe collection in Dublin!"</h3>
+<script>
+            setCal()
+
+            function getTime() {
+            var now = new Date()
+            var hour = now.getHours()
+            var minute = now.getMinutes()
+            now = null
+            var ampm = ""
+
+            if (hour >= 12) {
+            hour -= 12
+            ampm = "PM"
+            } else
+            ampm = "AM"
+            hour = (hour == 0) ? 12 : hour
+
+            if (minute < 10)
+            minute = "0" + minute
+
+
+            return hour + ":" + minute + " " + ampm
+            }
+
+            function leapYear(year) {
+            if (year % 4 == 0)
+            return true
+            return false
+            }
+
+            function getDays(month, year) {
+            var ar = new Array(12)
+            ar[0] = 31 // January
+            ar[1] = (leapYear(year)) ? 29 : 28 // February
+            ar[2] = 31 // March
+            ar[3] = 30 // April
+            ar[4] = 31 // May
+            ar[5] = 30 // June
+            ar[6] = 31 // July
+            ar[7] = 31 // August
+            ar[8] = 30 // September
+            ar[9] = 31 // October
+            ar[10] = 30 // November
+            ar[11] = 31 // December
+
+
+            return ar[month]
+            }
+
+            function getMonthName(month) {
+            var ar = new Array(12)
+            ar[0] = "January"
+            ar[1] = "February"
+            ar[2] = "March"
+            ar[3] = "April"
+            ar[4] = "May"
+            ar[5] = "June"
+            ar[6] = "July"
+            ar[7] = "August"
+            ar[8] = "September"
+            ar[9] = "October"
+            ar[10] = "November"
+            ar[11] = "December"
+
+            return ar[month]
+            }
+
+            function setCal() {
+            var now = new Date()
+            var year = now.getYear()
+            if (year < 1000)
+            year+=1900
+            var month = now.getMonth()
+            var monthName = getMonthName(month)
+            var date = now.getDate()
+            now = null
+
+            var firstDayInstance = new Date(year, month, 1)
+            var firstDay = firstDayInstance.getDay()
+            firstDayInstance = null
+
+            var days = getDays(month, year)
+
+            drawCal(firstDay + 1, days, date, monthName, year)
+            }
+
+            function drawCal(firstDay, lastDate, date, monthName, year) {
+            var headerHeight = 50
+            var border = 2
+            var cellspacing = 4
+            var headerColor = "midnightblue"
+            var headerSize = "+3"
+            var colWidth = 60
+            var dayCellHeight = 25
+            var dayColor = "darkblue"
+            var cellHeight = 40
+            var todayColor = "red"
+            var timeColor = "purple"
+
+
+            var text = ""
+            text += '<CENTER>'
+            text += '<TABLE BORDER=' + border + ' CELLSPACING=' + cellspacing + '>'
+            text += '<TH COLSPAN=7 HEIGHT=' + headerHeight + '>'
+            text += '<FONT COLOR="' + headerColor + '" SIZE=' + headerSize + '>'
+            text += monthName + ' ' + year
+            text += '</FONT>'
+            text += '</TH>'
+
+
+            var openCol = '<TD WIDTH=' + colWidth + ' HEIGHT=' + dayCellHeight + '>'
+            openCol += '<FONT COLOR="' + dayColor + '">'
+            var closeCol = '</FONT></TD>'
+
+            var weekDay = new Array(7)
+            weekDay[0] = "Sun"
+            weekDay[1] = "Mon"
+            weekDay[2] = "Tues"
+            weekDay[3] = "Wed"
+            weekDay[4] = "Thu"
+            weekDay[5] = "Fri"
+            weekDay[6] = "Sat"
+
+            text += '<TR ALIGN="center" VALIGN="center">'
+            for (var dayNum = 0; dayNum < 7; ++dayNum) {
+            text += openCol + weekDay[dayNum] + closeCol
+            }
+            text += '</TR>'
+
+            var digit = 1
+            var curCell = 1
+
+            for (var row = 1; row <= Math.ceil((lastDate + firstDay - 1) / 7); ++row) {
+            text += '<TR ALIGN="right" VALIGN="top">'
+            for (var col = 1; col <= 7; ++col) {
+            if (digit > lastDate)
+            break
+            if (curCell < firstDay) {
+            text += '<TD></TD>';
+            curCell++
+            } else {
+            if (digit == date) {
+            text += '<TD HEIGHT=' + cellHeight + '>'
+            text += '<FONT COLOR="' + todayColor + '">'
+            text += digit
+            text += '</FONT><BR>'
+            text += '<FONT COLOR="' + timeColor + '" SIZE=2>'
+            text += '<CENTER>' + getTime() + '</CENTER>'
+            text += '</FONT>'
+            text += '</TD>'
+            } else
+            text += '<TD HEIGHT=' + cellHeight + '>' + digit + '</TD>'
+            digit++
+            }
+            }
+            text += '</TR>'
+            }
+
+            text += '</TABLE>'
+            text += '</CENTER>'
+
+            document.write(text)
+  }
+</script>
+            </div>
+
+           	<div class="main_right">
+                <h2><u>Home</u></h2>
+                <br>
+               <p>Thank you for visting Beale's Shoe Store. We are happy to announce that our store is now offically open. Please feel free to navigate through our website to see the wide range of shoes that we have in store, but dont worry more designer shoes are on their way very soon. We currently have a wide range of:</p><br>
+               <p>
+               <ul>
+                    <li>Mens Footwear</li>
+
+                    <li>Womens Footwear</li>
+
+                    <li>And Kids Footwear</li>
+               </ul>
+               </p>
+               <br>
+               <br>
+               <br>
+               <br>
+               <h1>Please feel free to contact<br> us or simply drop into<br> one of our stores.</h1>
+            </div>
+            
+           	<div class="main_bottom"></div>
+
+        </div>
+
+        
+        
+        <div class="dotted_line"></div>
+        <div id="footer">
+        <p>Website Design by: Declan Barnes, Christopher Doran and William Mcgeown.</p>
+        <p>Location:Mayor Street Co.Dublin.</p>
+
+      </div>
+        
+        </div>
+</body>
+</html>

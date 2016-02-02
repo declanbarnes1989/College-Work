@@ -1,0 +1,32 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="store">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="dvd" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="name"/>
+              <xs:element type="xs:string" name="image"/>
+              <xs:element type="xs:string" name="genre"/>
+              <xs:element type="xs:string" name="age"/>
+              <xs:element type="xs:string" name="type"/>
+              <xs:element name="special_offer">
+                <xs:complexType mixed="true">
+                  <xs:sequence>
+                    <xs:element name="promotion" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="info"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

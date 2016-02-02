@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sample PHP API Project</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="email_hint">email</string>
+    <string name="password_hint">password</string>
+    <string name="arail_font">Arial</string>
+    <string name="not_reg">Not registered? Sign up</string>
+    <string name="sign_in">Sign In</string>
+    <string name="title_activity_register">Register</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="title_activity_main">Welcome:</string>
+    <string name="logout_btn">Logout</string>
+    <string name="welcome_text">Welcome:</string>
+    <string name="Name">Name</string>
+    <string name="Student_ID">Student_ID</string>
+    <string name="Scanner">Scanner</string>
+    <string name="Already_Registered">Already Registered? Login here!</string>
+
+</resources>

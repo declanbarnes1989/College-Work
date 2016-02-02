@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Alan Sullivan done this file-->
+<aboutus>
+    <about>
+        <image1>images/logo.png</image1>
+        <p>The Video Store was founded in 2014 by Declan Barnes and Alan Sullivan. 
+           It is situated in The National College Of Ireland in Dublin City. The 
+           Video Store provides its customers great prices in dvd's all year 
+           round while providing the best customer services around.
+        </p>
+        <image2>images/logo.png</image2>
+    </about>
+</aboutus>
+    

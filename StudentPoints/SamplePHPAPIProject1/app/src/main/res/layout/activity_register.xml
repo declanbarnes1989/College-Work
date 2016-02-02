@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradiantbg"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.StudentPoints.sap.RegisterActivity" >
+
+    <EditText
+        android:id="@+id/passwordRF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/emailRF"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:textColor="@color/bg_main"
+        android:ems="10"
+        android:textStyle="bold"
+        android:hint="@string/password_hint"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/register_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/passwordRF"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttonshaperegister"
+        android:shadowColor="#91191D"
+        android:shadowDx="2"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:textStyle="bold"
+        android:text="@string/btn_register" />
+
+    <Button
+        android:id="@+id/signinto_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register_btn"
+        android:layout_marginTop="21dp"
+        android:textStyle="bold"
+        android:background="@drawable/buttonshaperegister"
+        android:shadowColor="#91191D"
+        android:shadowDx="2"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="@string/Already_Registered" />
+
+    <EditText
+        android:id="@+id/emailRF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fullnameRF"
+        android:layout_marginTop="18dp"
+        android:ems="10"
+        android:textStyle="bold"
+        android:textColor="@color/bg_main"
+        android:hint="@string/Student_ID"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/fullnameRF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="108dp"
+        android:ems="10"
+        android:textStyle="bold"
+        android:textColor="@color/bg_main"
+        android:hint="@string/hint_name"
+        android:inputType="textPersonName">
+        <requestFocus />
+    </EditText>
+
+</RelativeLayout>

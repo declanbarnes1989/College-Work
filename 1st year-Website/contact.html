@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+
+
+		<script type="text/javascript">
+			function show_alert()
+		{
+			var r=confirm("Thank you for submitting a message");
+
+
+
+				if (r==true)
+				{
+		  		document.getElementById("Message").value= " ";
+
+
+		 		}
+
+
+		}
+		</script>
+
+
+
+       <title> Contacts page for Beale's Shoes Store </title>
+
+       <div id="header">
+
+
+            <link rel="stylesheet" type="text/css" href="contact.css" />
+            &nbsp;<a href="http://www.facebook.com"><img src="icons/Facebook.jpg" alt="Face" style="float:right" /></a>
+              <a href="http://www.twitter.com/LeonaBeale"><img src="icons/Twitter.png" alt="twit" style="float:right"/></a>
+                 <a href="http://www.linkedin.com"><img src="icons/Linkedin.gif" alt="link" style="float:right"/></a>
+       </div>
+	</head>
+
+
+
+
+	<body class="body">
+
+
+        <h1><center id="main">Beale's Shoes Contact Page </center></h1>
+
+		<div id="homePage">
+
+		<a href="index.html">Back to Home Page</a>
+		</div>
+
+
+		<div id="mainpic"/>
+			<img src="icons/shoecrazy.png" alt="shoe" id="mainpic"/>
+		</div>
+
+		<div class="column1">
+			<div style="color:#CC0000;">
+
+				<p><center>Feel free to contact Beale's Shoes anytime through the following ways.</center></p>
+			</div>
+		</div>
+
+		<div class="column2">
+			<div style="color:#CC0000;">
+
+				<p><center>Address: Beale's Shoes, Mayor Street Co.Dublin.</center></p>
+			</div>
+		</div>
+
+		<div class="column3">
+			<div style="color:#CC0000;">
+
+				<p><center>E-mail: bealeshoes@hotmail.com</center></p>
+			</div>
+		</div>
+
+		<div class="column4">
+					<div style="color:#CC0000;">
+
+						<p><center>Telephone number: 01 846 5100</center></p>
+					</div>
+		</div>
+
+		<div class="column5">
+					<div style="color:#CC0000;">
+
+						<p><center>Alternatively leave a message in the message box and we will get back to you ASAP.</center></p>
+					</div>
+		</div>
+			<div id="messageBox">
+		<table>
+			<form>
+				<tr>
+
+						<td>
+						<textarea  id = "Message" rows = "4" cols = "69">
+						</textarea>
+
+						</td>
+				</tr>
+
+				<tr>
+						<td class="messageButton">
+						<input type="button" onclick="show_alert()" value="Submit your message" /><br/>
+
+						</td>
+
+
+				</tr>
+
+			</form>
+		</table>
+	</div>
+
+		<div class="dotted_line"></div>
+			<div id="footer">
+		        <p>Website Design by: Declan Barnes, Christopher Doran and William Mcgeown.</p>
+
+
+      	</div>
+
+
+
+
+    </body>
+
+
+</html>
